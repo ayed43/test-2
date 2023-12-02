@@ -1,12 +1,8 @@
-
-
-.main {
-  width: 100%;
-  min-height: 100vh;
-  align-items: center;
+body{
   background-image: url('img/german4.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
   background-size: cover;
-  background-attachment: fixed;
 }
   ul {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
