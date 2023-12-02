@@ -1,0 +1,33 @@
+ ul {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+ position: sticky;
+  top: 0;
+  }
+  li {
+    float: left;
+    border-radius: 2vw;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1.5vw 1.5vw;
+    text-decoration: none;
+  }
+  
+  #ho:hover, .dropbtn {
+    text-shadow: 0 0 6px #2f00ff, 0 0 8px rgb(38, 0, 255);
+    transform: scale(1.1);
+  }
+  
+  .active {
+    text-shadow: 0 0 6px #ff0000, 0 0 8px rgb(255, 0, 0);  }
