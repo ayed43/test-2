@@ -3,9 +3,10 @@ body{
   color: white;
 }
 .d{
+  margin-top: 2vw;
   position: relative;
   padding: 0.5vw;
- background-color: #fae7c9;
+ background-image: url('img/b1.jpg');
  color: rgb(0, 0, 255);
  text-align: center;
   background-repeat: no-repeat;
@@ -19,15 +20,7 @@ body{
 h1.d{
   letter-spacing: 5px;
 }
-#car{
-  position:absolute;
-  width: 15%;
-  height: 10vw;
-  background-size: 100% 100%;
-  background-image: url('img/b1.jpg');
-  background-repeat: no-repeatt;
-  padding: 15px;
-}
+
 p.l{
   text-align: left;
   text-decoration: none;
@@ -66,10 +59,10 @@ li a, .dropbtn {
 }
 
 #ho:hover, .dropbtn {
-background-color: rgba(255, 255, 255, 0.178);  transform: scale(1.1);
+background-color: rgb(110, 94, 17);  transform: scale(1.1);
 }
 
 .active {
   z-index: 99999;
-  background-color: rgba(255, 255, 255, 0.241);
+  background-color: rgb(25, 100, 18);
 }
