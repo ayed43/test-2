@@ -4,13 +4,11 @@ body{
 }
 .d{
   margin-top: 2vw;
-  position: relative;
   padding: 0.5vw;
  background-image: url('img/b1.jpg');
  color: rgb(0, 0, 255);
  text-align: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
   text-transform: uppercase;
   background-size: cover;
   width: 100%;
