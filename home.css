@@ -1,6 +1,13 @@
 body{
   background-color: rgb(42, 103, 129);
   color: white;
+  margin: 0;
+}
+#w1{
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: black;
 }
 .d{
   margin-top: 2vw;
@@ -27,6 +34,7 @@ p.l{
     font-size: 1.7vw;
 }
 ul {
+  margin-left: 50vw;
   z-index: 999999;
   text-transform: uppercase;
   font-weight: 400;
@@ -66,7 +74,7 @@ background-color: rgb(110, 94, 17);  transform: scale(1.1);
 .title {
   display: flex;
   justify-content: center;
-  color: #3a6cf4;
+  color: #000000;
   font-size: 2.2em;
   font-weight: 800;
   margin-bottom: 30px;
@@ -110,4 +118,7 @@ a{
   font-size: 1.2em;
   font-weight: 700;
   margin: 10px;
+}
+#hh{
+  background-image: url('img/GERMAN1.png');
 }
