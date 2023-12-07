@@ -33,11 +33,11 @@ body{
   li a:hover{
     transform: scale(1.1);
     color: rgb(0, 0, 0);
-    text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
+    text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
     }
     
     .active {
-      text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;}
+      text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;}
       .U{
         margin-top: 0;
         padding: 0.5vw;
@@ -49,7 +49,7 @@ body{
         text-transform: uppercase;
         background-size: cover;
         width: 99%;
-        height: 41vw;
+        height: 60vw;
       }
       .Upar{
         text-align: center;

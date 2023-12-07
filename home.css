@@ -58,11 +58,11 @@ li a{
 li a:hover{
 transform: scale(1.1);
 color: rgb(0, 0, 0);
-text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
+text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
 }
 
 .active {
-  text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;}
+  text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;}
 .title {
   display: flex;
   justify-content: center;
