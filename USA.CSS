@@ -1,11 +1,9 @@
 body{
-  background-image: url('img/U.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+  background-color: darkkhaki;
+  margin: 0;
 }
   ul {
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color:rgb(42, 103, 129) ;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.5vw;
@@ -17,16 +15,13 @@ body{
  position: sticky;
   top: 0;
   }
-  
-  
-
   li {
     float: left;
     border-radius: 2vw;
     
   }
   
-  li a, .dropbtn {
+  li a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -34,11 +29,50 @@ body{
     text-decoration: none;
   }
   
-  #ho:hover, .dropbtn {
-    text-shadow: 0 0 6px #2f00ff, 0 0 8px rgb(38, 0, 255);
+  li a:hover{
     transform: scale(1.1);
-  }
+    color: rgb(0, 0, 0);
+    text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
+    }
+    
+    .active {
+      text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;}
   
-  .active {
-    text-shadow: 0 0 6px #ff0000, 0 0 8px rgb(255, 0, 0);  }
-  
+    .U{
+      margin-top: 0;
+      padding: 0.5vw;
+      background-position: center ;
+     background-image: url('img/shof.jfif');
+     color: rgb(0, 0, 255);
+     text-align: center;
+      background-repeat: no-repeat;
+      text-transform: uppercase;
+      background-size: cover;
+      width: 99%;
+      height: 41vw;
+    }
+    .Upar{
+      text-align: center;
+      text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.7vw;
+    }
+    .button{
+      color: #ffffff;
+      background-color: grey;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 600;
+      display: inline-block;
+      padding: 0.9375em 2.1875em;
+      border-radius: 15px;
+      margin: 1vw;
+      transition: 0.7s ease;
+    }
+    .button:hover {
+      transform: scale(1.1);
+      color: #00ffd5;
+      background-color: black;
+    }

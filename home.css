@@ -1,25 +1,21 @@
 body{
-  background-color: rgb(42, 103, 129);
+  background-color: steelblue;
   color: white;
   margin: 0;
 }
-#w1{
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-  color: black;
-}
+
 .d{
-  margin-top: 2vw;
+margin: 0;
   padding: 0.5vw;
+  background-position: center ;
  background-image: url('img/por1.jpg');
  color: rgb(0, 0, 255);
  text-align: center;
   background-repeat: no-repeat;
   text-transform: uppercase;
   background-size: cover;
-  width: 100%;
-  height: 40vw;
+  width: 99%;
+  height: 41vw;
 }
 h1.d{
   letter-spacing: 5px;
@@ -28,14 +24,13 @@ h1.d{
 p.l{
   text-align: center;
   text-decoration: none;
-    color: rgb(131, 97, 77);
+    color: orange;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 1.7vw;
 }
 ul {
-  margin-left: 50vw;
-  z-index: 999999;
+  background-color:rgb(42, 103, 129) ;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.5vw;
@@ -52,25 +47,23 @@ li {
   float: left;
   border-radius: 2vw;
 }
-.pad{
-  padding-left: 2px;
-}
-li a, .dropbtn {
+
+li a{
   display: inline-block;
-  color: #bc930c;
+  color: white;
   text-align: center;
   padding: 1.5vw 1.5vw;
   text-decoration: none;
 }
 
-#ho:hover, .dropbtn {
-background-color: rgb(110, 94, 17);  transform: scale(1.1);
+li a:hover{
+transform: scale(1.1);
+color: rgb(0, 0, 0);
+text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
 }
 
 .active {
-  z-index: 99999;
-  background-color: rgb(25, 100, 18);
-}
+  text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;}
 .title {
   display: flex;
   justify-content: center;
@@ -90,7 +83,7 @@ a{
   text-decoration: none;
 }
 .card {
-  background-color: rgb(129, 132, 132);
+  background-color: gray;
   width: 21.25em;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   border-radius: 10px;
@@ -101,6 +94,8 @@ a{
 
 .card:hover {
   transform: scale(1.1);
+  background-image: url('img/3.jfif');
+  background-size: cover;
 }
 
 .card .icon {
@@ -119,6 +114,4 @@ a{
   font-weight: 700;
   margin: 10px;
 }
-#hh{
-  background-image: url('img/GERMAN1.png');
-}
+
