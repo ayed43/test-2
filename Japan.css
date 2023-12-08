@@ -1,8 +1,9 @@
+
 body{
-  
 margin: 0;
 }
 .j{
+  overflow: auto;
   margin-top: 0;
   padding: 0.5vw;
   background-position: center ;
@@ -44,37 +45,36 @@ margin: 0;
   background-color: rgba(0, 0, 0, 0.503);
 }
 
-  ul {
-    background-color:rgb(42, 103, 129) ;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.5vw;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-   position: sticky;
-    top: 0;
-  }
-  li {
-    float: left;
-    border-radius: 2vw;
-  }
-  
-  li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 1.5vw 1.5vw;
-    text-decoration: none;
-  }
-  
-  li a:hover{
-    transform: scale(1.1);
-    color: rgb(0, 0, 0);
-    text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
-    }
+header {
+  z-index: 9999999;
+  background-color:rgb(42, 103, 129) ;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+ position: sticky;
+  top: 0;
+  float: left;
+
+}
+
+header a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1.5vw 1.5vw;
+  text-decoration: none;
+}
+
+header a:hover{
+transform: scale(1.1);
+color: rgb(0, 0, 0);
+text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
     
     .active {
       text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;}

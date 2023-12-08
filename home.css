@@ -1,9 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
 body{
   background-color: #e1c78f;
   color: white;
   margin: 0;
 }
 .d{
+  overflow: auto;
 margin: 0;
   padding: 0.5vw;
   background-position: center ;
@@ -13,13 +20,13 @@ margin: 0;
   background-repeat: no-repeat;
   text-transform: uppercase;
   background-size: cover;
-  width: 99%;
-  height: 41vw;
+  width: 100%;
+  height: 50vw;
 }
 
 
 p.l{
-  
+  padding-top: 2vw;
   text-align: center;
   text-decoration: none;
     color: orange;
@@ -27,7 +34,7 @@ p.l{
     font-weight: 700;
     font-size: 1.7vw;
 }
-ul {
+header {
   z-index: 9999999;
   background-color:rgb(42, 103, 129) ;
   text-transform: uppercase;
@@ -40,14 +47,11 @@ ul {
   width: 100%;
  position: sticky;
   top: 0;
-}
-
-li {
   float: left;
-  border-radius: 2vw;
+
 }
 
-li a{
+header a{
   display: inline-block;
   color: white;
   text-align: center;
@@ -55,7 +59,7 @@ li a{
   text-decoration: none;
 }
 
-li a:hover{
+header a:hover{
 transform: scale(1.1);
 color: rgb(0, 0, 0);
 text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
@@ -95,7 +99,6 @@ a{
   transform: scale(1.1);
   background-color:rgb(42, 103, 129);
 }
-
 .card .icon {
   color: #3a6cf4;
   font-size: 8em;

@@ -2,43 +2,40 @@ body{
   background-color: slategrey;
   margin: 0;
 }
-  ul {
-    background-color:rgb(42, 103, 129) ;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.5vw;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
-   position: sticky;
-    top: 0;
-  }
-  
+header {
+  z-index: 9999999;
+  background-color:rgb(42, 103, 129) ;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+ position: sticky;
+  top: 0;
+  float: left;
 
-  li {
-    float: left;
-    border-radius: 2vw;
-  }
-  
-  li a, .dropbtn {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1.5vw 1.5vw;
-    text-decoration: none;
-  }
-  
-  li a:hover{
-    transform: scale(1.1);
-    color: rgb(0, 0, 0);
-    text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
-    }
-    
+}
+
+header a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1.5vw 1.5vw;
+  text-decoration: none;
+}
+
+header a:hover{
+transform: scale(1.1);
+color: rgb(0, 0, 0);
+text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
     .active {
       text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;}
       .U{
+        overflow: auto;
         margin-top: 0;
         padding: 0.5vw;
         background-position: center ;
@@ -75,25 +72,6 @@ body{
       .button:hover {
         border: 0.2vw solid rgb(255, 255, 255);
         transform: scale(1.1);
-        color: #3300ff;
-        background-color:rgba(0, 0, 0, 0.393) ;
-      }
-      .buttonm{
-        color: #3300ff;
-        text-decoration: none;
-        font-size: 1.1em;
-        font-weight: 600;
-        display: inline-block;
-        padding: 0.9375em 2.1875em;
-        border-radius: 15px;
-        margin: 1vw;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
-        transition: 0.7s ease;
-      }
-      .buttonm:hover {
-        border: 0.2vw solid rgb(255, 255, 255);
-        transform: scale(1.1);
-        color: #3300ff;
+        color: darkblue;
         background-color:rgba(0, 0, 0, 0.393) ;
       }

@@ -2,7 +2,8 @@ body{
   background-color: darkgoldenrod;
   margin: 0;
 }
-ul {
+header {
+  z-index: 9999999;
   background-color:rgb(42, 103, 129) ;
   text-transform: uppercase;
   font-weight: 400;
@@ -15,24 +16,20 @@ ul {
  position: sticky;
   top: 0;
 }
-  li {
-    float: left;
-    border-radius: 2vw;
-  }
-  
-  li a{
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1.5vw 1.5vw;
-    text-decoration: none;
-  }
-  
-  li a:hover{
-    transform: scale(1.1);
-    color: rgb(0, 0, 0);
-    text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;
-    }
-    
+
+header a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1.5vw 1.5vw;
+  text-decoration: none;
+}
+
+header a:hover{
+transform: scale(1.1);
+color: rgb(0, 0, 0);
+text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
+
     .active {
       text-shadow: -2px 0 orange, 0 2px orange, 2px 0 orange, 0 -2px orange;}
