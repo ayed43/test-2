@@ -4,6 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="about.css">
+    <style>       
+     #nameList {
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+  }
+  .he2{
+        color: rgb(33, 196, 147);
+        font-weight:900;
+        font-size: 5vw;
+        margin-top: 5vw;
+      }
+
+  </style>
   </head>
   <body>
     <header>
@@ -15,30 +28,31 @@
       <a style="float: right" href="contact us.html"><i class="fa-solid fa-comments"></i></a>
     </header>
 
+    <div id="md">
+      <h1 class="he2"><b>Members</b></h1>
+    <ul id="nameList">
+      <li>ayed</li>
+      <li>omar</li>
+      <li>ibra</li>
+  </ul>
+</div>
+  <script>
+      const names = ["ayed", "omar", "ibra"];
 
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
-    <p>ff</p>
+      function getRandomName() {
+          const randomIndex = Math.floor(Math.random() * names.length);
+          return names[randomIndex];
+      }
+      function updateNameList() {
+          const nameListItems = document.querySelectorAll("#nameList li");
+
+          const shuffledNames = [...names].sort(() => Math.random() - 0.5);
+
+          nameListItems.forEach((item, index) => {
+              item.textContent = shuffledNames[index];
+          });
+      }
+      updateNameList();
+  </script>
   </body>
 </html>

@@ -43,9 +43,11 @@ header {
     width: 100%;
     min-height: 100vh;
     display: flex;
+    overflow: auto;
     background: url('img/Toyotat.png') no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -55,14 +57,6 @@ header {
     padding-right: 30px;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    color: #3a6cf4;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
 
 .content {
     display: flex;
@@ -97,7 +91,7 @@ color: white;
 li {
     margin-bottom: 1vw;
 }
-.Phot{
+.Photos{
     width: 100%;
     height: 50vw;
     background-color: slategrey;

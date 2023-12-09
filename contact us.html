@@ -4,6 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="contact us.css">
+    <style>
+      #he{
+        text-align: center;
+        color: rgb(33, 196, 147);
+        font-weight:900;
+        font-size: 5vw;
+        margin-top: 5vw;
+      }
+    </style>
   </head>
   <body  >
     <header>
@@ -14,5 +23,20 @@
         <a style="float: right" href="about.html"><i class="fa-solid fa-people-group"></i></a>
         <a style="float: right" class="active" href="contact us.html"><i style="color: black;" class="fa-solid fa-comments"></i></a>
       </header>
+<h1 id="he"><b>contact us</b></h1>
+      <div class="container">
+        <form action="#" method="post">
+          <label >Yor Name:</label>
+          <input type="text" placeholder="Ali" required>
+          <label >phone:</label>
+          <input type="tel" placeholder="0543255437" pattern="[0]{1}-[5]{2}[0-9]{8}">
+          <label >Email:</label>
+          <input type="email" placeholder="contact@gmail.com" required>
+          <label >Message:</label>
+          <textarea placeholder="Write your message here" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
 </body>
 </html>
