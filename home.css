@@ -68,6 +68,7 @@ text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
 .active {
   text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;}
 .title {
+  margin-top: 2vw;
   display: flex;
   justify-content: center;
   color: #000000;
@@ -97,7 +98,7 @@ a{
 
 .card:hover {
   transform: scale(1.1);
-  background-color:rgb(42, 103, 129);
+  background-color:rgb(65, 53, 86);
 }
 .card .icon {
   color: #3a6cf4;

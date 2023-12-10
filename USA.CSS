@@ -9,6 +9,7 @@
 body{
   background-color: darkkhaki;
   margin: 0;
+  overflow-x: hidden;
 }
 header {
   z-index: 9999999;
@@ -49,7 +50,8 @@ text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
       padding: 0.5vw;
       background-position: center ;
      background-image: url('img/shof.jfif');
-     color: rgb(0, 0, 255);
+     color: rgb(255, 255, 255);
+     text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
      text-align: center;
       background-repeat: no-repeat;
       text-transform: uppercase;
@@ -61,7 +63,7 @@ text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
       padding-top: 2vw;
       text-align: center;
       text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: rgb(56, 74, 208);
         text-transform: capitalize;
         font-weight: 700;
         font-size: 1.7vw;
